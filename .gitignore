@@ -1,0 +1,7 @@
+.pio/
+.vscode/
+.DS_Store
+
+# Reference clone of lexilexiko/0N3P0rK (never commit it or its tarball)
+0N3P0rK/
+*.tgz
