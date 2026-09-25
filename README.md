@@ -1,6 +1,10 @@
 # picocalc-esp32
 
-**Run Cardputer apps, and potentially other ESP32 apps, on a [ClockworkPi PicoCalc](https://www.clockworkpi.com/picocalc)
+<p align="center">
+  <img src="esp32-in-picocalc.jpg" alt="esp32 installed" width="500">
+</p>
+
+**Port Cardputer apps, and potentially other ESP32 apps, on a [ClockworkPi PicoCalc](https://www.clockworkpi.com/picocalc)
 with a [Waveshare ESP32-S3-Pico](https://www.waveshare.com/wiki/ESP32-S3-Pico) core.**
 
 The Waveshare ESP32-S3-Pico is pin-compatible with the Raspberry Pi Pico. It drops into the
