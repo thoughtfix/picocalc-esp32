@@ -8,7 +8,7 @@ unfinished or hardware-dependent. This is the honest list.
 - **Battery depends on the PicoCalc's STM32 firmware.** The keyboard MCU only reports a real
   battery level on recent firmware (its version register reads non-zero). On older firmware it
   returns a hardcoded value - check `Stm32::firmwareVersion()` before trusting `batteryRaw()`. Even
-  with good firmware, the AXP2101 fuel gauge needs one full charge→discharge cycle to calibrate.
+  with good firmware, the AXP2101 fuel gauge needs one full charge/discharge cycle to calibrate.
   There is no per-cell voltage over the STM32 bus (percentage only).
 - **GPS: verified as a raw feed, not a full lock.** The `gps-dump` example confirms NMEA streaming
   on the side header; a full satellite fix needs open sky and hasn't been captured in CI/on-desk.
