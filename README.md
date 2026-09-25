@@ -13,7 +13,7 @@ dual-core ESP32-S3 that has WiFi, Bluetooth LE, 16 MB of flash and 2 MB of PSRAM
 hardware still expects the pins a Pico uses. This library provides the drivers for the display,
 keyboard, SD card, speaker, battery and backlights.
 
-An example of it in use is **[Porkocalc](https://github.com/thoughtfix/porkocalc)** (coming soon),
+An example of it in use is **[Porkocalc](https://github.com/thoughtfix/porkocalc)** (in beta),
 a port of the excellent **[M5PorkChop](https://github.com/0ct0sec/M5PORKCHOP)** project by 0ct0sec.
 
 > **Status: early (v0.1.0).** Display, keyboard, battery, backlights, SD, speaker, and GPS (raw
