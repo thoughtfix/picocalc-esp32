@@ -28,7 +28,7 @@ a lot more room:
 | Chip | ESP32-S3 (S3FN8), 2 cores @ 240 MHz | ESP32-S3 (S3R2), 2 cores @ 240 MHz |
 | RAM | 512 KB SRAM, **no PSRAM** | 512 KB SRAM **+ 2 MB PSRAM** |
 | Flash | 8 MB | **16 MB** |
-| Screen | 1.14", 240×135 | **4" IPS, 320×320** (3.2× the pixels) |
+| Screen | 1.14", 240x135 | **4" IPS, 320x320** (3.2x the pixels) |
 | Keyboard | 56 keys | **67 keys**, backlit, real arrow keys, F1-F10 |
 | Battery | 1750 mAh | **Two 18650 cells** (user-supplied) |
 | Audio | Speaker, mic, 3.5 mm out | Stereo speakers, 3.5 mm out (no mic) |
@@ -51,7 +51,7 @@ hold several times the Cardputer ADV's 1750 mAh, though, so expect long runtimes
 
 ## What's included
 
-- **Display**: the 320×320 ST7365P LCD as an [M5GFX](https://github.com/m5stack/M5GFX)/LovyanGFX
+- **Display**: the 320x320 ST7365P LCD as an [M5GFX](https://github.com/m5stack/M5GFX)/LovyanGFX
   device (16-bit color, 40 MHz SPI, about 24 full-screen redraws per second). Code that already
   uses `M5GFX` or `M5Canvas` can draw here.
 - **Keyboard**: key events (pressed / held / released) from the PicoCalc's STM32 keyboard
@@ -130,9 +130,9 @@ This is also [`examples/hello-picocalc`](examples/hello-picocalc).
 
 Each folder in [`examples/`](examples) is a complete PlatformIO project.
 
-**VS Code:** install the **PlatformIO IDE** extension, then use *File → Open Folder* on an example
-folder (for example `examples/selftest`). Build with the ✓ button in the status bar and
-upload with →. The serial monitor (plug icon) is already configured by the example's `platformio.ini`.
+**VS Code:** install the **PlatformIO IDE** extension, then use *File > Open Folder* on an example
+folder (for example `examples/selftest`). Build with the checkmark button in the status bar and
+upload with the right-arrow button. The serial monitor (plug icon) is already configured by the example's `platformio.ini`.
 
 **Command line:**
 
